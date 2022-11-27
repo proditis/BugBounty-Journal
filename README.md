@@ -21,6 +21,7 @@ My trip to the bugbounty world starts at midnight of 25/11/2022. Unfortunately i
 1. I have absolutely no idea what i am doing.
 2. I am making fun of my self a lot
 3. I dont know what i am doing (did i say that already?)
+4. I am trying to figure this up as i go...
 
 _I may occasionally update a previous days entry to include new details. This will mostly include spell checking and inclusion of details that i believe will be useful but didnt have the foresight to include them in the first place._
 

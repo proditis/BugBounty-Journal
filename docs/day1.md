@@ -47,9 +47,15 @@ Nothing went as planned... but it was to be expected. Out of all i ended up spen
 Since i didnt search for tools before hand, i had to figure out how to do things on the spot and by doing so, identify problems or specific needs in my process.
 
 ## DevMode - Getting our hands dirty
-So the developer in me jumped into one of the API's with a web browser, dev tools and `copy to curl`. Immediately i realized that it would have been handy to be able to extract these requests all in one go so that i can study them with my favorite editors. There is no option "show me requests only for this domain" that i could find. Luckily the number of requests i needed to extract where not that many... but that was a single page load, i recon if i crawled the website this number of requests would have been in the thousands. So this is one of the things i knew i knew Burp and Zap could have done easily.
+So the developer in me jumped into one of the API's with a web browser, dev tools and `copy to curl`.
 
-Created a document to keep track of these things that i may need later since i didnt wanna stop in the middle of the engagement to start googling. I wanted to find out as much as i could for my targets.
+Immediately i realized that it would have been handy to be able to extract these requests all in one go so that i can study them with my favorite editors.
+
+There is no option "show me requests only for this domain" that i could find. Luckily the number of requests i needed to extract where not that many... but that was a single page load, i recon if i crawled the website this number of requests would have been in the thousands. This is one of the things i knew Burp and Zap (among a plethora of other tools) could have done easily.
+
+Created a document to keep track of these needs for later since i didnt wanna stop in the middle of the engagement to start googling.
+
+I wanted to find out as much as i could for my targets.
 
 ## AdminMode - Lets see this thing
 So then the admin in me took over and I started looking for telltale signs in headers and sources so as to understand what kind of software they use.

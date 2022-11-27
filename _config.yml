@@ -2,6 +2,7 @@ title: My BugBounty Journal
 description: The journal of a unix geek taking its first steps into the BugBounty world...
 show_downloads: false
 remote_theme: pages-themes/hacker@v0.2.0
+google_analytics:
 github:
   is_project_page: false
 plugins:

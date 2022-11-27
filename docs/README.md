@@ -12,6 +12,12 @@ The reasons I am doing this are:
 
 My trip to the bugbounty world starts at midnight of 25/11/2022. Unfortunately i cannot work on it during the day, so my attempts will have to be more directed and with purpose if i plan on doing anything significant.
 
+**WARNING:**
+
+1. I have absolutely no idea what i am doing.
+2. I am making fun of my self a lot
+3. I dont know what i am doing (did i say that already?)
+
 [ToC]
 * [day 1 - nothing ever goes as planned and that is a good thing](day1.md)
 * [day 2 - this new plan will work for sure](day2.md)

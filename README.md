@@ -8,7 +8,7 @@ The reasons I am doing this are:
 * Get better ideas for making targets for our echoCTF platform
 * Learn a few of the tools i never wanted to learn, on the go and on the need, ie force my self to understand what gap each of the tool is trying to fill
 * Create a Gitlab and Github pipeline that would allow bugbounty hunters and pen-testers to automate some tasks
-* (maybe) Get lucky and score a payout
+* (maybe) Get lucky and score a payout in the process :smiley:
 
 My trip to the bugbounty world starts at midnight of 25/11/2022. Unfortunately i cannot work on it during the day, so my attempts will have to be more directed and with purpose if i plan on doing anything significant.
 

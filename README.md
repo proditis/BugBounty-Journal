@@ -33,4 +33,4 @@ _I may occasionally update a previous days entry to include new details. This wi
 Here i will keep my notes about specific tools that i use on my daily attempts. I am trying to document **ONLY** what i use and not create encyclopedia.
 
 * [Useful DNS Commands](notes/dns.md)
-* [Useful `/.well-known/` locations](notes/dns.md)
+* [Useful `/.well-known/` locations](notes/well-known.md)

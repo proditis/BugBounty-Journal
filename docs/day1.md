@@ -84,6 +84,7 @@ Using these i was able to find some endpoints that would otherwise be kind of di
 * `jq`: for parsing and querying so many json files
 * `docker` for running the kali image
 * `VirtualBox` with fresh Kali installed (_that died when it tried to exist the screensaver so there was very little use of it_)
+* `chrome` and `firefox` dev console
 * A LOT of bash scripting (one liner loops where all over my bash history)
 
 The tools that were the unexpected heroes of the day where **`host`** and **`assetfinder`**
@@ -100,6 +101,7 @@ My first day experience was a mix bag of feelings... Looking at the programs and
 * Dear Intigriti, for the love of god can you add a download as Markdown, json, txt, csv SOMETHING?  This would have made working on a program so much easier
 * funny as it may sound, you have to copy paste each target in scope, each of which can include `*` domains, and exclude the out-of-scope by hand... 100s of hackers are doing the same steps in each engagement (copy, mass scan, grep -v). How about providing the engagement details so that it is guaranteed people are scanning IN SCOPE items only?
 * It is obvious to me that the majority of hacking tools are authored by people who didnt have experience or understanding of the unix philosophies (but we still love you :heart: ), even though these tools are primarily for linux :penguin:
+* There are **A LOT OF GRAPHQL** endpoints out there...
 
 ## Conclusions of the day
 Well my first day conclusions is that maybe i should have done a bit more preparation. But even like that i am not quite happy with my progress.
@@ -111,6 +113,8 @@ Well my first day conclusions is that maybe i should have done a bit more prepar
 6. I need to organize my work better, at the end of the day the place was filled with log files.
 7. I need to think about the information that i keep and how i keep it so that it is easier to digest and use.
 8. Some tooling is required
+9. I need to study graphql more
+
 
 Need to investigate more, but by now its 6am and my brain is ready to explode. So i'll stop here and cleanup after.
 _PS: Some notes were kept as i was working so i dont forget what was going on through my mind, but some corrections took place after i woke up :rofl:_

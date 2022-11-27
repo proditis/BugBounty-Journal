@@ -1,4 +1,4 @@
-# Bugbounty journal
+# My bugbounty journal
 This is my attempt to keep a journal of my experience with bug bounty. I want to approach this entire experience coming from a sysadmin and developer background with a lot of vulnerability research on the sides.
 
 I am going to attempt to document my experience, thoughts before and after in the hopes that this may help others.

@@ -45,8 +45,8 @@ The following pipelines were amassed during my tests and although only the `dns_
 _These are not optimized in any way, shape or form_
 
 **stage: information_gathering**
-* [amass enum](_pipelines/amass.yml)
-* [assetfinder](_pipelines/assetfinder.yml)
-* [dns enum](_pipelines/dns_enum.yml)
-* [kali enums](_pipelines/kali_enums.yml)
-* [ZAP API scan](_pipelines/dns_enum.yml)
+* [amass enum](https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/amass.yml)
+* [assetfinder](https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/assetfinder.yml)
+* [dns enum](https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/dns_enum.yml)
+* [kali enums](https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/kali_enums.yml)
+* [ZAP API scan](https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/dns_enum.yml)

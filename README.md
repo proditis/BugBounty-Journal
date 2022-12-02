@@ -42,6 +42,8 @@ Here i will keep my notes about specific tools that i use on my daily attempts. 
 ### Gitlab Pipelines
 The following pipelines were amassed during my tests and although only the `dns_enum.yml` pipeline has been used on an actual program, the others have been used only under controlled environments.
 
+_These are not optimized in any way, shape or form_
+
 **stage: information_gathering**
 * [amass enum](_pipelines/amass.yml)
 * [assetfinder](_pipelines/assetfinder.yml)

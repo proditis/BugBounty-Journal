@@ -30,12 +30,15 @@ _I may occasionally update a previous days entry to include new details. This wi
 ## Daily Log
 * [day 1 - nothing ever goes as planned and that is a good thing](docs/day1.md)
 * [day 2 - this new plan will work for sure](docs/day2.md)
+* [day 3 - lets use some tooling](docs/day3.md)
 
 ## Notes
 Here i will keep my notes about specific tools that i use on my daily attempts. I am trying to document **ONLY** what i use and not create an encyclopedia.
 
 * [Useful DNS Commands](notes/dns.md)
 * [Useful `/.well-known/` locations](notes/well-known.md)
+* [CDN specifics](notes/cdn.md)
+
 
 ## Automation
 

@@ -1,0 +1,11 @@
+amass_enum:
+  image: caffix/amass:latest
+  stage: information_gathering
+  script:
+    - enum -v -src -ip -brute -min-for-recursive 2 -dir ./ -d ${DOMAIN}
+  artifacts:
+    paths:
+      - amass/*
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual

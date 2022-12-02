@@ -1,0 +1,22 @@
+assetfinder:
+  stage: information_gathering
+  artifacts:
+    paths:
+      - ${CI_PROJECT_NAMESPACE}.assetfinder
+  script:
+    - |
+      for _d in $(<program.assets); do
+        assetfinder ${_d}
+        assetfinder -subs-only ${_d}
+      done 2>&1 | sort -u | tee ${CI_PROJECT_NAMESPACE}.assetfinder
+    - echo "Cleaning up assetfinder files"
+    - grep -v '\*' ${CI_PROJECT_NAMESPACE}.assetfinder > inScope.tmp
+    - if [ -f OutOfScope.list ]; then grep -v -f OutOfScope.list inScope.tmp | tee inScope.list ; fi
+  artifacts:
+    paths:
+      - ${CI_PROJECT_NAMESPACE}.assetfinder
+      - inScope.list
+  rules:
+  - exists:
+      - program.assets
+  - when: manual

@@ -2,6 +2,8 @@
 - [My bugbounty journal](#my-bugbounty-journal)
   - [Daily Log](#daily-log)
   - [Notes](#notes)
+  - [Automation](#automation)
+    - [Gitlab Pipelines](#gitlab-pipelines)
 
 This is my attempt to keep a journal of my experience with bug bounty. I want to approach this entire experience coming from a sysadmin and developer background with a lot of vulnerability research on the sides.
 
@@ -30,7 +32,19 @@ _I may occasionally update a previous days entry to include new details. This wi
 * [day 2 - this new plan will work for sure](docs/day2.md)
 
 ## Notes
-Here i will keep my notes about specific tools that i use on my daily attempts. I am trying to document **ONLY** what i use and not create encyclopedia.
+Here i will keep my notes about specific tools that i use on my daily attempts. I am trying to document **ONLY** what i use and not create an encyclopedia.
 
 * [Useful DNS Commands](notes/dns.md)
 * [Useful `/.well-known/` locations](notes/well-known.md)
+
+## Automation
+
+### Gitlab Pipelines
+The following pipelines were amassed during my tests and although only the `dns_enum.yml` pipeline has been used on an actual program, the others have been used only under controlled environments.
+
+**stage: information_gathering**
+* [amass enum](_pipelines/amass.yml)
+* [assetfinder](_pipelines/assetfinder.yml)
+* [dns enum](_pipelines/dns_enum.yml)
+* [kali enums](_pipelines/kali_enums.yml)
+* [ZAP API scan](_pipelines/dns_enum.yml)

@@ -96,6 +96,7 @@ Some of the observations for the day:
 3. Understanding your tooling is important if you dont want to waste time and loose some juicy targets
 4. Sometimes is good to follow redirects, my goto tool for such requests is usually something like `curl -I ${TARGET}` (notice the lack of `-L`).
 5. I need to find some tricks for hosts behind CDN's even if they are minor
+6. It may be a good idea to create a few targets for echoCTF that will be used by new users to actually familiarize with the tools and see them in action under more carefully crafted scenarios. This will also help me to do the same :smiley:
 
 By now i am exhausted compared to the previous day, my mind doesnt seem to work properly and everything i try to do is taking way too long. I call it a day and going to get some sleep so that i can cleanup when i wake up, and update this journal entry.
 

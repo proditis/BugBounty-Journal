@@ -104,7 +104,7 @@ My first day experience was a mix bag of feelings... Looking at the programs and
 * There are **A LOT OF GRAPHQL** endpoints out there...
 
 ## Conclusions of the day
-Well my first day conclusions is that maybe i should have done a bit more preparation. But even like that i am not quite happy with my progress.
+Well my first day conclusions is that maybe i should have done a bit more preparation. But even like that i am quite happy with my progress.
 
 1. Document everything: Documenting and figuring out a proper structure to hold your engagement data is much more important than the actual scan. Its easy to miss critical information when you dump logs all over the place.
 2. Some "oldschool" ways, miraculously enough, are much more useful during the early stages of the engagements. They provide accurate and to the point results which give you a good idea on how to later proceed using the big guns

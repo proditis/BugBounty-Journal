@@ -31,6 +31,7 @@ _I may occasionally update a previous days entry to include new details. This wi
 * [day 1 - nothing ever goes as planned and that is a good thing](docs/day1.md)
 * [day 2 - this new plan will work for sure](docs/day2.md)
 * [day 3 - lets use some tooling](docs/day3.md)
+* [day 4](docs/day4.md)
 
 ## Notes
 Here i will keep my notes about specific tools that i use on my daily attempts. I am trying to document **ONLY** what i use and not create an encyclopedia.
@@ -38,6 +39,7 @@ Here i will keep my notes about specific tools that i use on my daily attempts. 
 * [Useful DNS Commands](notes/dns.md)
 * [Useful `/.well-known/` locations](notes/well-known.md)
 * [CDN specifics](notes/cdn.md)
+* [Gitlab specifics](notes/gitlab.md)
 
 
 ## Automation
@@ -45,11 +47,6 @@ Here i will keep my notes about specific tools that i use on my daily attempts. 
 ### Gitlab Pipelines
 The following pipelines were amassed during my tests and although only the `dns_enum.yml` pipeline has been used on an actual program, the others have been used only under controlled environments.
 
-_These are not optimized in any way, shape or form_
+_NOTE: These are not optimized in any way, shape or form_
 
-**stage: information_gathering**
-* [amass enum](https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/amass.yml)
-* [assetfinder](https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/assetfinder.yml)
-* [dns enum](https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/dns_enum.yml)
-* [kali enums](https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/kali_enums.yml)
-* [ZAP API scan](https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/dns_enum.yml)
+I will not be listing them here individually any more because by now they have already way too many. Feel free to go to the following url if you want to use them https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/

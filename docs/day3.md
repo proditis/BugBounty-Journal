@@ -60,7 +60,7 @@ The day went really really well. I found lots of juicy targets which where using
 * I produce better results when i focus on a single program, as long as the program clicks with me...
 * I think its time to give burp or zap a better look, i definitely need some tooling for the visually elaborate web applications
 
-Its 4:10AM at the moment and i dont think i can keep working. Finding out that i spend all my time on non bounty items killed my motive, in part because it felt like i . I will attempt to cleanup and push my changes and go to sleep.
+Its 4:10AM at the moment and i dont think i can keep working. Finding out that i spend all my time on non bounty items killed my motive, in part because it felt like i was working on targets without actually making targets? and it made feel some strange sense of "guilt" as if i was cheating on my own project? if that made any sense. I will attempt to cleanup and push my changes and go to sleep.
 
 - [day 4](day4.md)
 - [Go back HOME](../)

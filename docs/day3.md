@@ -10,7 +10,7 @@ Its Friday again, (02/12/2022) and i'm preparing my plan for the day. I have spe
 
 I am a bit feverish today (flu probly), so this will be fun :D
 
-Hours on it: ~1am -
+Hours on it: ~1am - ~4:10am
 
 ## Plan for the day
 I have prepared some pipelines that i want to test tonight and see if i can get better results and how this will work out.

@@ -10,7 +10,7 @@ kali_enum_subs:
     - echo "Running on $(hostname)"
     - echo "uname $(uname -a)"
     - apt-get update
-    - apt-get install -yqq golang-go amass subfinder assetfinder jq sublist3r
+    - apt-get install -yqq golang-go amass subfinder assetfinder jq
     - if [ ! -f exclude-patterns ]; then touch exclude-patterns; fi
   script:
     - |

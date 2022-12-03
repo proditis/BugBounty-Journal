@@ -22,6 +22,7 @@ dns_enum_host:
       allow_failure: true
       when: manual
 
+
 dns_enum_hosts:
   stage: information_gathering
   artifacts:

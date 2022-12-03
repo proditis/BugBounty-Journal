@@ -1,0 +1,19 @@
+# Perform nmaps on given hosts and produce an xml report.
+# Convert the XML into html with xsltproc
+nmap:
+  image: debian:bullseye-slim
+  stage: information_gathering
+  before_script:
+    - apt-get update
+    - apt-get install --no-install-recommends -yqq nmap xsltproc
+  script:
+    - nmap -T4 -oX nmap.xml -iL domain.list
+    - xsltproc nmap.xml -o nmap.html
+  artifacts:
+    name: "$DOMAIN:$CI_JOB_NAME"
+    paths:
+      - nmap.xml
+      - nmap.html
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual

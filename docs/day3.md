@@ -47,7 +47,7 @@ The days picks included:
 I cant stop but thinking that i have forgot to log some of the tools that i used for the day, but you'll have to excuse me for that as i was trying to keep this log at the same time as working on 3 other different repositories, under "in-flu-ense" (not what you think). I mean flu, i think i got the flu :D
 
 ## Observations of the day
-* I need to automated the gitlab repository creation somehow. Maybe with a browser extension/bookmarklet? Seems to be the easier option atm.
+* I need to automate the gitlab repository creation process somehow. Maybe with a browser extension/bookmarklet? Seems to be the easier option atm.
 * I need to work on a unified pipeline which will allow for all the jobs to be present at the same time, including potential "custom" commands
 
 

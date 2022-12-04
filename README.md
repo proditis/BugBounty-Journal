@@ -31,7 +31,7 @@ _I may occasionally update a previous days entry to include new details. This wi
 * [day 1 - nothing ever goes as planned and that is a good thing](docs/day1.md)
 * [day 2 - this new plan will work for sure](docs/day2.md)
 * [day 3 - lets use some tooling](docs/day3.md)
-* [day 4](docs/day4.md)
+* [day 4 - lets use some more tooling](docs/day4.md)
 
 ## Notes
 Here i will keep my notes about specific tools that i use on my daily attempts. I am trying to document **ONLY** what i use and not create an encyclopedia.

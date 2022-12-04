@@ -1,0 +1,26 @@
+#
+# Run ffuf on the domains found in domain.list
+#
+variables:
+  PROGRAM_RATE: 0
+
+ffuf:
+  image: debian:bullseye-slim
+  stage: information_gathering
+  before_script:
+    - apt-get update
+    - apt-get install --no-install-recommends -yqq wget
+    - wget --no-check-certificate https://github.com/ffuf/ffuf/releases/download/v1.5.0/ffuf_1.5.0_linux_amd64.tar.gz
+    - wget --no-check-certificate https://wordlists-cdn.assetnote.io/data/manual/raft-medium-directories.txt
+    - tar -zxvf ffuf_1.5.0_linux_amd64.tar.gz
+  script:
+    - ./ffuf -o ${DOMAIN}-fuff-all.json  -t 1 -p 0.5 -rate ${PROGRAM_RATE} -w raft-medium-directories.txt  -recursion -recursion-depth 2 -u https://${DOMAIN}/FUZZ -mc all
+    - ./ffuf -o ${DOMAIN}-fuff-host.json -t 1 -p 0.5 -rate ${PROGRAM_RATE} -w raft-medium-directories.txt -u https://${DOMAIN} -H "Host: FUZZ" -H "Cookie: FUZZ=FUZZ" -mc all
+    - ./ffuf -o ${DOMAIN}-fuff-post.json -t 1 -p 0.5 -rate ${PROGRAM_RATE} -w raft-medium-directories.txt -u https://${DOMAIN}/FUZZ -X POST -mc all
+  artifacts:
+    name: "$DOMAIN:$CI_JOB_NAME"
+    paths:
+      - ./*-fuff-*.json
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual

@@ -1,6 +1,6 @@
-# day 2 - this new plan will work for sure
+# My bugbounty journal day: 2 - this new plan will work for sure
 
-- [day 2 - this new plan will work for sure](#day-2---this-new-plan-will-work-for-sure)
+- [My bugbounty journal day: 2 - this new plan will work for sure](#my-bugbounty-journal-day-2---this-new-plan-will-work-for-sure)
 	- [Plan for the day](#plan-for-the-day)
 	- [Picking extra targets](#picking-extra-targets)
 	- [Organizing my work](#organizing-my-work)

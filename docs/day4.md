@@ -1,5 +1,5 @@
-# day 4 - lets use some more tooling
-- [day 4 - lets use some more tooling](#day-4---lets-use-some-more-tooling)
+# My bugbounty journal day: 4 - lets use some more tooling
+- [My bugbounty journal day: 4 - lets use some more tooling](#my-bugbounty-journal-day-4---lets-use-some-more-tooling)
   - [Plan for the day](#plan-for-the-day)
   - [Back to some old targets](#back-to-some-old-targets)
   - [Tools of the day](#tools-of-the-day)

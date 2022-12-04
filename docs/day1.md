@@ -1,5 +1,5 @@
-# day 1 - nothing ever goes as planned and that is a good thing
-- [day 1 - nothing ever goes as planned and that is a good thing](#day-1---nothing-ever-goes-as-planned-and-that-is-a-good-thing)
+# My bugbounty journal day: 1 - nothing ever goes as planned and that is a good thing
+- [My bugbounty journal day: 1 - nothing ever goes as planned and that is a good thing](#my-bugbounty-journal-day-1---nothing-ever-goes-as-planned-and-that-is-a-good-thing)
   - [Preparation - this is a joke](#preparation---this-is-a-joke)
   - [Picking targets - this is another joke](#picking-targets---this-is-another-joke)
   - [Organizing our work](#organizing-our-work)

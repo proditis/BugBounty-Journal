@@ -49,4 +49,4 @@ The following pipelines were amassed during my tests and although only the `dns_
 
 _NOTE: These are not optimized in any way, shape or form_
 
-I will not be listing them here individually any more because by now they have already way too many. Feel free to go to the following url if you want to use them https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/
+I will not be listing them here individually any more because by now they have already way too many. Feel free to go to the following url if you want to use them [https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/](https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/)

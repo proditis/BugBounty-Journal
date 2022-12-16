@@ -28,10 +28,12 @@ My trip to the bugbounty world starts at midnight of 25/11/2022. Unfortunately i
 _I may occasionally update a previous days entry to include new details. This will mostly include spell checking and inclusion of details that i believe will be useful but didnt have the foresight to include them in the first place._
 
 ## Daily Log
-* [day 1 - nothing ever goes as planned and that is a good thing](docs/day1.md)
-* [day 2 - this new plan will work for sure](docs/day2.md)
-* [day 3 - lets use some tooling](docs/day3.md)
-* [day 4 - lets use some more tooling](docs/day4.md)
+* [day 1 - nothing ever goes as planned and that is a good thing](days/day1.md)
+* [day 2 - this new plan will work for sure](days/day2.md)
+* [day 3 - lets use some tooling](days/day3.md)
+* [day 4 - lets use some more tooling](days/day4.md)
+* [day 5 - the best laid plans often go... to waste](days/day5.md)
+* [day 6 - GOTO DAY 5](days/day6.md)
 
 ## Notes
 Here i will keep my notes about specific tools that i use on my daily attempts. I am trying to document **ONLY** what i use and not create an encyclopedia.
@@ -45,8 +47,6 @@ Here i will keep my notes about specific tools that i use on my daily attempts. 
 ## Automation
 
 ### Gitlab Pipelines
-The following pipelines were amassed during my tests and although only the `dns_enum.yml` pipeline has been used on an actual program, the others have been used only under controlled environments.
+The gitlab pipelines collection has started getting bigger and bigger and it makes no sense to keep them here. A new project repo has been created to hold the gitlab pipelines (and future Github actions).
 
-_NOTE: These are not optimized in any way, shape or form_
-
-I will not be listing them here individually any more because by now they have already way too many. Feel free to go to the following url if you want to use them [https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/](https://github.com/proditis/BugBounty-Journal/blob/main/_pipelines/)
+[https://github.com/proditis/bugbounty-cicd](https://github.com/proditis/bugbounty-cicd)

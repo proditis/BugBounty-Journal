@@ -7,3 +7,10 @@ github:
   is_project_page: false
 plugins:
 - jekyll-remote-theme
+author:
+  twitter: PantelisRoditis
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://repository-images.githubusercontent.com/571153544/6eee7f75-677c-4efb-9c20-778c8ed13f2a

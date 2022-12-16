@@ -1,9 +1,0 @@
-# Rename this into .gitlab-ci.yml and place it into your root project folder on gitlab.
-# Add add the jobs you like from the collections
-stages:
-  - information_gathering
-  - scanning
-
-variables:
-  DEBIAN_FRONTEND: noninteractive
-  DOMAIN: example.com

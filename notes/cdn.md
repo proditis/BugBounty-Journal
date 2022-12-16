@@ -3,6 +3,10 @@
 
 ## Cloudflare
 
+### Status Codes
+* `530`: Error 530 indicates Cloudflare is unable to send requests to your server because its origin IP cannot resolve the A or CNAME DNS record requested
+
+
 ### Workers
 
 ### `wrangler dev`

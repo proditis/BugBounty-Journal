@@ -3,7 +3,6 @@
   - [Daily Log](#daily-log)
   - [Notes](#notes)
   - [Automation](#automation)
-    - [Gitlab Pipelines](#gitlab-pipelines)
 
 This is my attempt to keep a journal of my experience with bug bounty. I want to approach this entire experience coming from a sysadmin and developer background with a lot of vulnerability research on the sides.
 
@@ -47,8 +46,6 @@ Here i will keep my notes about specific tools that i use on my daily attempts. 
 
 
 ## Automation
-
-### Gitlab Pipelines
 The gitlab pipelines collection has started getting bigger and bigger and it makes no sense to keep them here. A new project repo has been created to hold the gitlab pipelines (and future Github actions).
 
 [https://github.com/proditis/bugbounty-cicd](https://github.com/proditis/bugbounty-cicd)

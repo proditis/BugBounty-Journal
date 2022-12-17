@@ -69,11 +69,13 @@ Right about here, this is the moment that I had an idea to start a couple anothe
 * `grep -Ero "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b"` to grab emails from files
 
 ## Observations of the day
-Things went a lot smoother this time, but i found my self doing certain things on the spot which became tiresome after a while. I am able to produce a large number of mostly accurate information with the pipelines, but its still not where i want it to be. 
+Things went a lot smoother this time, but i found my self doing certain things on the spot which became tiresome after a while. 
 
-The main toolset and methodology works waaaayyy too good right now. To the point that i now i have less than 30% of free runners time available on gitlab. 
+I am able to produce a large number of mostly accurate information with the pipelines, but its still not where i want it to be. 
 
-In the future it may word having separate gitlab group per program altogher, in order to take advantage of more free times. Once you're done with a project you dont need to keep it around any more, you archive it, download and remove it from gitlab.
+The main toolset and methodology works waaaayyy too good right now. To the point that i now i have less than 30% of free gitlab runners time available on the group that keeps all my programs 🤦‍♂️ 
+
+In the future it may worth having separate gitlab group per program altogher, in order to take advantage of more free pipeline runner times. Once you're done with a project you dont need to keep it around any more, you archive it, download and remove it from gitlab.
 
 I needed 3 things today which i didnt have
 * a tool to parse cert files and display their alternate subject names (openssl and shell scripting did the job buuuuuut)

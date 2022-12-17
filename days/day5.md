@@ -49,7 +49,19 @@ When a program has available Android applications, even if you dont audit the ap
 
 > I prefer passive methods a lot more (for obvious reasons), than going full on guns blazing and causing all sorts of alarms going off from early stages.
 
-Another thing that i noticed is that SNI enabled hosts need special care when working with them (duh!). A lot of times its not enough to change the `HOST:` header since the SNI negotiation has already took place and as such you wont be able to reach the proper host. In some other cases you get an entire different set of results. Right about here, this is the moment that I had an idea to start a couple another tools 😭... Now i dont only have to create them but i also have to include them into the pipelines 2*😭...
+Another thing that i noticed is that SNI enabled hosts need special care when working with them (duh!). A lot of times its not enough to change the `HOST:` header since the SNI negotiation has already took place and as such you wont be able to reach the proper host. So something like the following is not enough.
+```sh
+curl -H "Host: example.com" https://another-example.com
+```
+
+Instead we need something like the `--resolve` option for curl
+```sh
+curl --resolve example.com:443:1.2.3.4:443 https://example.com
+```
+
+In some cases you get an entire different set of results depending on how you approach the TLS enabled hosts. 
+
+Right about here, this is the moment that I had an idea to start a couple another tools 😭... Now i dont only have to create them but i also have to include them into the pipelines 2*😭...
 
 ## Tools of the day
 * `https://apps.evozi.com/apk-downloader/?id=<APP_ID>` for downloading APK's from google play

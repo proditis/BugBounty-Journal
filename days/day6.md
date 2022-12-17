@@ -19,6 +19,7 @@ I started the day determined to make the tools that i was needed the day before.
 * **`sniprobe`**: Connect to a given TLS port and parse the remote end certificate for DNS names. For every name perform a get request pinned at the original hosts' IP. This makes SNI happy and is very different from simply changing the `HOST:` header.
 
 At the start of the day the pipeline looked something like this
+
 ![Day 6 starting pipeline](../assets/day6-start-pipeline.png)
 
 
@@ -50,7 +51,7 @@ when the tools worked flawlessly and got integrated into my methodology without 
 * `cspparse` for parsing csp policies and finding some extra domains that i was not able to find in any of my other scans
 * `sniprobe` for probing SSL websites and listing domains that had interesting results (i loved error 530 from cloudflare :smiley: )
 * `bbot` tried for its ability to do all in one kind of things but i was not able to observe any results yet, will have to look again at a later time.
-*
+
 ## Observations & Conclusions of the day
 I merged these two together for this day since i was mostly focusing on evaluating my findings and doing some manual testing. I was able to cause a lot of application crash cases, which for me is a "good" sign that there is more to be found there. I have eliminated `amass` and `ffuf` as they were taking way to long to complete at this time and they need to be provided with a more carefully crafted dataset to produce meaningful results in a timely manner. I decided it would be best to be added on followup steps and on better curated datasets (that i would do my self).
 

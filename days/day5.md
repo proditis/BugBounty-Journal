@@ -69,7 +69,7 @@ Right about here, this is the moment that I had an idea to start a couple anothe
 * `grep -Ero "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b"` to grab emails from files
 
 ## Observations of the day
-Things went a lot smoother this times but i found my self doing certain things on the spot which became tiresome after a while. I am able to produce a large number of mostly accurate information with the pipelines, but its still not where i want it to be. 
+Things went a lot smoother this time, but i found my self doing certain things on the spot which became tiresome after a while. I am able to produce a large number of mostly accurate information with the pipelines, but its still not where i want it to be. 
 
 The main toolset and methodology works waaaayyy too good right now. To the point that i now i have less than 30% of free runners time available on gitlab. 
 

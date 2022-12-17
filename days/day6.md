@@ -8,7 +8,7 @@
 
 [WIP]: This is still being worked on :D
 
-Alright, today i feel a lot better, the fever is gone and the headache is now a lot smoother (but still present). I tried to cleanup some of my notes but it was hard to recall what happened :rofl:
+Alright, today i feel a lot better, the fever is gone and the headache is now a lot smoother (even though its still present). I tried to cleanup some of my notes but it was hard to recall what happened :rofl:
 
 Hours on it: ~2am - ~8am
 

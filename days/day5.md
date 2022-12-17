@@ -25,7 +25,7 @@ This time no new targets where added. Instead I tried to clean up my data from l
 
 So i started with importing existing details which i would later use for my scans into an `orunmila.db`, this included a lot of different types of lists such as subdomains, interesting urls, endpoints, api's, keys and ids and much more.
 ```sh
-orunmila i -tags inscope,domains inscope-domains.list
+orunmila i -tags inscope,domain inscope-domains.list
 orunmila i -tags inscope,url inscope-urls.list
 orunmila i -tags gau,url gau-results.log
 orunmila i -tags assetfinder,domain assetfinder.log

@@ -7,6 +7,7 @@ github:
   is_project_page: false
 plugins:
 - jekyll-remote-theme
+- jemoji
 author:
   twitter: PantelisRoditis
 defaults:

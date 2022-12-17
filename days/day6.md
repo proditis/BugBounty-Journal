@@ -38,9 +38,10 @@ The general plan for the day was
 
 ## Targets of the day
 Since there was _a plan_, and i decided to follow it, it meant **no new programs**, just work on any of the past programs and try to keep notes of interesting findings.
-I came across a lot of HubSpot instances this time around so i had to mess with it like any other application. Find their manuals and API references, check for endpoints and parameters. I was mostly trying to find endpoints that the application supports in hopes that some of them will be forgotten and unprotected.
-My guess was right as i was able to find some endpoints for the usual user operations (register, signup, reset password, etc).
 
+I came across a lot of HubSpot instances this time around so i had to mess with it like any other application. Find their manuals and API references, check for endpoints and parameters. I was mostly trying to find endpoints that the application supports in hopes that some of them will be forgotten and unprotected.
+
+My guess was right as i was able to find some endpoints for the usual user operations (register, signup, reset password, etc).
 
 
 ## Tools of the day
@@ -53,7 +54,11 @@ when the tools worked flawlessly and got integrated into my methodology without 
 * `bbot` tried for its ability to do all in one kind of things but i was not able to observe any results yet, will have to look again at a later time.
 
 ## Observations & Conclusions of the day
-I merged these two together for this day since i was mostly focusing on evaluating my findings and doing some manual testing. I was able to cause a lot of application crash cases, which for me is a "good" sign that there is more to be found there. I have eliminated `amass` and `ffuf` as they were taking way to long to complete at this time and they need to be provided with a more carefully crafted dataset to produce meaningful results in a timely manner. I decided it would be best to be added on followup steps and on better curated datasets (that i would do my self).
+I merged these two together for this day since i was mostly focusing on evaluating my findings and doing some manual testing. 
+
+I was able to cause a lot of application crash cases, which for me is a "good" sign that there is more to be found there. 
+
+I have eliminated `amass` and `ffuf` as they were taking way to long to complete at this time and they need to be provided with a more carefully crafted dataset to produce meaningful results in a timely manner. I decided it would be best, if these were added on followup steps and on better curated datasets (that i would do my self).
 
 The community has very few tools outside the obvious ones (sub domains and website searches). Tools for more specialized and better DNS enumerations seem to be few and tools for API's is mostly limited to zap and burp extensions.
 

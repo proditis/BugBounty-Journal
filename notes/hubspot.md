@@ -1,4 +1,8 @@
 # HubSpot CMS
+- [HubSpot CMS](#hubspot-cms)
+  - [Endpoints](#endpoints)
+  - [Headers](#headers)
+  - [Commonly used keys to look for](#commonly-used-keys-to-look-for)
 
 ## Endpoints
 ```

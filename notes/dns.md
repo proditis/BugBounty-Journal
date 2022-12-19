@@ -1,4 +1,7 @@
 # DNS Information Gathering
+- [DNS Information Gathering](#dns-information-gathering)
+  - [`host` command](#host-command)
+
 ## `host` command
 * DKIM
   ```shell

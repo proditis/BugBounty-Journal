@@ -1,4 +1,11 @@
 # SOAP and WSDL
+- [SOAP and WSDL](#soap-and-wsdl)
+  - [Resources](#resources)
+  - [Tools](#tools)
+  - [Tips and Tricks](#tips-and-tricks)
+    - [Commonly used headers (for curl)](#commonly-used-headers-for-curl)
+    - [Examples](#examples)
+
 ## Resources
 * https://www.w3schools.com/xml/xml_wsdl.asp
 * https://www.tutorialworks.com/wsdl/

@@ -41,6 +41,8 @@ Here i will keep my notes about specific tools that i use on my daily attempts. 
 * [Useful DNS Commands](notes/dns.md)
 * [Gitlab specifics](notes/gitlab.md)
 * [HubSpot notes](notes/hubspot.md)
+* [GraphQL notes](notes/graphql.md)
+* [PHP notes](notes/php.md)
 * [Useful `/.well-known/` locations](notes/well-known.md)
 * [WSDL APIs](notes/wsdl.md)
 

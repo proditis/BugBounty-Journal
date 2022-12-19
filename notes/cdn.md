@@ -1,4 +1,13 @@
 # CDN
+- [CDN](#cdn)
+  - [Cloudflare](#cloudflare)
+    - [Status Codes](#status-codes)
+    - [Workers](#workers)
+    - [`wrangler dev`](#wrangler-dev)
+      - [Only cloudflare IP's allowed?](#only-cloudflare-ips-allowed)
+      - [Use cloudflare workers to perform unfiltered(!?) scans?](#use-cloudflare-workers-to-perform-unfiltered-scans)
+    - [Breaking DNS for sites not hosted on cloudflare for cloudflare clients](#breaking-dns-for-sites-not-hosted-on-cloudflare-for-cloudflare-clients)
+
 * Use the `register`, `forgot password` and similar operations to grab the IP of the server protected behind a CDN
 
 ## Cloudflare

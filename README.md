@@ -1,4 +1,5 @@
 # My bugbounty journal
+![image](assets/bluffty_dub.png)
 - [My bugbounty journal](#my-bugbounty-journal)
   - [Daily Log](#daily-log)
   - [Notes](#notes)

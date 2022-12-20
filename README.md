@@ -34,6 +34,8 @@ _I may occasionally update a previous days entry to include new details. This wi
 * [day 4 - lets use some more tooling](days/day4.md)
 * [day 5 - the best laid plans often go... to waste](days/day5.md)
 * [day 6 - GOTO DAY 5](days/day6.md)
+* [day 7 - lets focus some more on DNS](days/day7.md)
+* [day 8 - insert meaningful title here](days/day8.md)
 
 ## Notes
 Here i will keep my notes about specific tools that i use on my daily attempts. I am trying to document **ONLY** what i use and not create an encyclopedia.

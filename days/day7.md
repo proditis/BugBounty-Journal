@@ -1,5 +1,5 @@
-# My bugbounty journal days: 7 - Lets focus some more on DNS
-- [My bugbounty journal days: 7 - Lets focus some more on DNS](#my-bugbounty-journal-days-7---lets-focus-some-more-on-dns)
+# My bugbounty journal days: 7 - lets focus some more on DNS
+- [My bugbounty journal days: 7 - lets focus some more on DNS](#my-bugbounty-journal-days-7---lets-focus-some-more-on-dns)
   - [Plan for the day](#plan-for-the-day)
   - [Targets of the day](#targets-of-the-day)
   - [Tools of the day](#tools-of-the-day)

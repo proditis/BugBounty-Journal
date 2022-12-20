@@ -4,6 +4,7 @@
 
 ## Resources
 * https://github.com/dolevf/Black-Hat-GraphQL/
+* https://carvesystems.com/news/the-5-most-common-graphql-security-vulnerabilities/
 
 
 **GraphQL flaws**

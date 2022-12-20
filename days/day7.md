@@ -9,15 +9,15 @@
 
 Well we're back for another session, last time i left things neat and tidy so there was not much cleaning up to do (other than this journal :smiley:).
 
-I started up the day a bit earlier than usual but i also stopped a bit earlier than usual so there is that :facepalm:
+I started up the day a bit earlier than usual but i also stopped a bit earlier than usual so there is that :man_shrugging:
 
-Work hours: 11:00 - 03:00 am
+Work hours: 11:00pm - 03:00 am
 
 ## Plan for the day
 The plan for the day was to continue with the programs from last week and see if i can get into some juicer results, but for some reason i got lost into a DNS quest. Keep on reading and you'll find out.
 
 ## Targets of the day
-I started looking at tools for DNS enumeration, but i couldnt find any that would do the sort of info gathering that i wanted so... (dont laugh) i hacked together a couple of snippets and small dns prober was born.
+I started looking at tools for DNS enumeration, but i couldnt find any that would do the sort of info gathering that i wanted so... (dont laugh) i hacked together a couple of snippets and a small dns prober was born.
 
 
 ## Tools of the day
@@ -31,7 +31,9 @@ Due to the fact that i was wasting my time playing with go and DNS i didnt reall
 *
 
 ## Conclusions of the day
-I came to the realization that my gluttony to include more and more tools into the pipeline has made me stray away from the main course... which is to devise a methodology that works better, faster and produces the results that i need 1st and foremost. For this purpose i released the pipelines as a separate project, people can contribute their improvements or additional pipelines there and i can focus on devising my own methodology to be added there as a _"profile"_ :smiley:
+I came to the realization that my gluttony to include more and more tools into the pipeline has made me stray away from the main course... which is to devise a methodology that works better, faster and produces the results that i need 1st and foremost.
+
+For this reason i decided to release the pipelines as a separate project. People can contribute their improvements or additional pipelines there and i can focus on devising my own methodology, which can later be added there as a pipeline _profile_ :smiley:
 
 ## Final words
 Yet again i didnt do all i set out to do on this day, but i consider it progress. Unfortunately i didnt learn anything noteworthy to include into my notes this time.

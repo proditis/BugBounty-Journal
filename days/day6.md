@@ -8,12 +8,12 @@
 
 [WIP]: This is still being worked on :D
 
-Alright, today i feel a lot better, the fever is gone and the headache is now a lot smoother (even though its still present). I tried to cleanup some of my notes but it was hard to recall what happened :rofl:
+Alright, today i feel a lot better, the fever is gone and the headache is now a lot smoother (even though its still present). I tried to cleanup some of my notes but it was hard to recall what happened :rofl: and so this was fruitless.
 
 Hours on it: ~2am - ~8am
 
 ## Plan for the day
-I started the day determined to make the tools that i was needed the day before. I hacked together snippets from all over the internet and put together 3 very simple tools:
+I started the day determined to make the tools that i needed the day before. I hacked together snippets from all over the internet and put together 3 very simple tools:
 * **`certnames`**: Parse a x509 PEM certificate and display Subject and/or DNS names with optional dns resolution of those alternative names
 * **`cspparse`**: Connect to a given URL and parse the CSP server response header (if present) for URL schemes, hostnames and IP's
 * **`sniprobe`**: Connect to a given TLS port and parse the remote end certificate for DNS names. For every name perform a get request pinned at the original hosts' IP. This makes SNI happy and is very different from simply changing the `HOST:` header.
@@ -41,7 +41,7 @@ Since there was _a plan_, and i decided to follow it, it meant **no new programs
 
 I came across a lot of HubSpot instances this time around so i had to mess with it like any other application. Find their manuals and API references, check for endpoints and parameters. I was mostly trying to find endpoints that the application supports in hopes that some of them will be forgotten and unprotected.
 
-My guess was right as i was able to find some endpoints for the usual user operations (register, signup, reset password, etc).
+My guess was right as i was able to find some endpoints for the usual user operations (register, signup, reset password, etc), but i didnt spend much time on them. Part of my process is to first gather as much information as possible and then try to make a plan of attack based on the available info.
 
 
 ## Tools of the day
@@ -54,19 +54,19 @@ when the tools worked flawlessly and got integrated into my methodology without 
 * `bbot` tried for its ability to do all in one kind of things but i was not able to observe any results yet, will have to look again at a later time.
 
 ## Observations & Conclusions of the day
-I merged these two together for this day since i was mostly focusing on evaluating my findings and doing some manual testing. 
+I merged these two together for this day since i was mostly focusing on evaluating my findings and doing some manual testing.
 
-I was able to cause a lot of application crash cases, which for me is a "good" sign that there is more to be found there. 
+I was able to cause a lot of application crash cases, which for me is a "good" sign that there is more to be found there.
 
 I have eliminated `amass` and `ffuf` as they were taking way to long to complete at this time and they need to be provided with a more carefully crafted dataset to produce meaningful results in a timely manner. I decided it would be best, if these were added on followup steps and on better curated datasets (that i would do my self).
 
-The community has very few tools outside the obvious ones (sub domains and website searches). Tools for more specialized and better DNS enumerations seem to be few and tools for API's is mostly limited to zap and burp extensions.
+The community has very few tools outside the obvious ones (sub domains and website searches). Tools for more specialized and better DNS enumerations seem to be rare and tools for API's are mostly limited to zap and burp extensions, which make sense since these are far more complicated subjects in general.
 
 ## Final words
 Everything went much better than expected and i felt really pumped with my newly polished Gitlab pipeline. I had interesting results and was able to add a few more "knowledge" to my notes.
 
 I kept on thinking that i am 6 days into my BugBounty journey and have started 5 tools already (steadily eyeballing on the 6th), the way i go i'll be lost in a sea of projects soon :rofl:
 
-- [day 7](day7.md)
+- [day 7 - lets focus some more on DNS](day7.md)
 - [Go back HOME](../)
 - [day 5 - the best laid plans often go... to waste](day5.md)
